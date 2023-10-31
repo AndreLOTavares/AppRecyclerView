@@ -29,7 +29,7 @@ class RecyclerViewMainActivity : AppCompatActivity() {
 
         rvLista = findViewById(R.id.rv_lista)
 
-        //rvLista.adapter = MensagemAdapter(lista)
+        rvLista.adapter = MensagemAdapter(lista)
 
         rvLista.layoutManager = LinearLayoutManager(this)
 
